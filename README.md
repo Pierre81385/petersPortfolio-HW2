@@ -9,6 +9,7 @@ This is an example of a portfolio website with responsive layout.
 - Clicking on images will take you to different pages linked to the main site.
 - Clicking on contact links at the bottom with take the user to the appropriate page. Clicking on phone will initiate a prompt to call.
 - Resizing a screen width less than 1000px will activate a media query to resize the header to prevent nav links from wraping
+- Resizing a screen width less than 432px will activate a media query to resize link font size and "Portfolio" font size to prevent re-ordering
 - Resizing the screen should have no effect on arrangment of other elements on the page
 
 A screenshot of the site is in the "assets" folder.
