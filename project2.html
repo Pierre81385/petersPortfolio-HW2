@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project 2</title>
+    <title>Weather Dashboard</title>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <h1>Project 2</h1>
+  <body style="margin-right: 40px">
+    <h1>Weather Dashboard</h1>
+    <div class="container-fluid" id="mainProject">
+      <div class="row">
+        <div class="col-lg-4 col-md-12" id="projectDescription">
+          <h3>App Description</h3>
+          The Weather Dashboard provides a seachable UI that presents the user
+          with current and 5 day forcasts for weather in cities around the
+          world.
+        </div>
+        <div class="col-lg-4 col-md-12" id="projectImg">
+          <img
+            src="./assets/Weather Dashboard.png"
+            alt="Beer Me Animation"
+            id="beerMeImg"
+            class="rounded mx-auto d-block"
+          />
+        </div>
+        <div class="col-lg-4 col-md-12" id="projectUsage">
+          <h3>How It Works</h3>
+          On opening the web app, search for a desired city and the user will be
+          presented with current and 5 day forcast weather information. Each
+          search is catologed in the search history section for easy recall, and
+          reloading the page will clear out that sessions searches.
+        </div>
+      </div>
+    </div>
+    <h3>Links</h3>
+    <div class="container-fluid" id="beerLink">
+      <a href="https://pierre81385.github.io/weatherDashboard-HW6/"
+        >Weather Dashboard - LIVE</a
+      >
+      <a href="https://github.com/Pierre81385/weatherDashboard-HW6"
+        >Weather Dashboard - GitHub</a
+      >
+    </div>
   </body>
+  <footer><a href="./index.html">BACK</a></footer>
 </html>

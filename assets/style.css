@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   font-family: "Dancing Script", cursive;
 }
 
@@ -156,6 +156,45 @@ table {
   opacity: 0.5;
 }
 
+#mainProject {
+  margin: 20px;
+  border-top: 2px solid black;
+}
+
+#beerMeImg {
+  width: 95%;
+  border-radius: 15%;
+}
+
+header,
+h3 {
+  align-content: center;
+  text-align: center;
+}
+
+#projectUsage {
+  text-align: left;
+}
+
+#projectDescription {
+  text-align: right;
+}
+
+#beerLink {
+  text-align: center;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  height: min-content;
+}
+
+footer {
+  text-align: center;
+}
 @media screen and (max-width: 700px) {
   header {
     height: 100px;

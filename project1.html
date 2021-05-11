@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project 1</title>
+    <title>Beer Me</title>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <h1>Project 1</h1>
+  <body style="margin-right: 40px">
+    <h1>Beer Me</h1>
+    <div class="container-fluid" id="mainProject">
+      <div class="row">
+        <div class="col-lg-4 col-md-12" id="projectDescription">
+          <h3>App Description</h3>
+          BeerMe International is an app designed to provide you with a random
+          beer suggestion based of a clients input of alcohol content and
+          desired bitterness. This was inspired by the need to find a new beer
+          without having the benifit of suggestions from social situations
+          during times of social distancing and fewer opportunities to eat out.
+        </div>
+        <div class="col-lg-4 col-md-12" id="projectImg">
+          <img
+            src="./assets/Animation.gif"
+            alt="Beer Me Animation"
+            id="beerMeImg"
+            class="rounded mx-auto d-block"
+          />
+        </div>
+        <div class="col-lg-4 col-md-12" id="projectUsage">
+          <h3>How It Works</h3>
+          Useage is simple and fairly straight forward. Once you have navigated
+          to the website (https://tjcourey.github.io/beerMe-international/) via
+          computer or mobile device, you can select the alcohol content and
+          bitterness via sliders and search for a beer. Alternatively you can
+          select a completely random beer. Once you have searched for a beer it
+          will be displayed to the page along with some information from the
+          brewer as well as a fun way to order the beer.
+        </div>
+      </div>
+    </div>
+    <h3>Links</h3>
+    <div class="container-fluid" id="beerLink">
+      <a href="https://tjcourey.github.io/beerMe-international/"
+        >Beer Me - LIVE</a
+      >
+      <a href="https://github.com/TJCourey/beerMe-international"
+        >Beer Me - GitHub</a
+      >
+    </div>
+    <div class="container">
+      <h3>Credits</h3>
+      <ul>
+        <li class="credits">Jack Neuner - Front end design and display</li>
+        <li class="credits">
+          Peter Bishop - Api call to beer database as well as picking matching
+          beers based of user criteria
+        </li>
+        <li class="credits">
+          Josh Brown - Api call for random beer as well as diplaying results for
+          both random and selected element
+        </li>
+        <li class="credits">
+          TJ Courey - Api call for language translation and display as well as
+          local storage functionality
+        </li>
+      </ul>
+    </div>
   </body>
+  <footer><a href="./index.html">BACK</a></footer>
 </html>
