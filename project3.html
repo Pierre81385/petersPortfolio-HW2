@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project 3</title>
+    <title>Favorite Recipes</title>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <h1>Project 3</h1>
+  <body style="margin-right: 40px">
+    <h1>Favorite Recipes</h1>
+    <div class="container-fluid" id="mainProject">
+      <div class="row">
+        <div class="col-lg-4 col-md-12" id="projectDescription">
+          <h3>App Description</h3>
+          The Favorite Recipe website it a blog style application that allows
+          users to sign up and create posts featuring their favorite recipes and
+          comment on others.
+        </div>
+        <div class="col-lg-4 col-md-12" id="projectImg">
+          <img
+            src="./assets/FavoriteRecipes.png"
+            alt="Beer Me Animation"
+            id="beerMeImg"
+            class="rounded mx-auto d-block"
+          />
+        </div>
+        <div class="col-lg-4 col-md-12" id="projectUsage">
+          <h3>How It Works</h3>
+          Opening the site, the user is required to sign up or login, and then
+          is brought to a page to create a post. That post is then displayed on
+          the home page with all of the other recipes posted. A user can click
+          on the post and will see when and who posted it. The user can comment
+          on posts, and update or delete their posts or comments.
+        </div>
+      </div>
+    </div>
+    <h3>Links</h3>
+    <div class="container-fluid" id="beerLink">
+      <a href="https://murmuring-river-43433.herokuapp.com/"
+        >Favorite Recipes - LIVE</a
+      >
+      <a href="https://github.com/JaredWilliam97/Favorite-Recipes"
+        >Favorite Recipes - GitHub</a
+      >
+    </div>
+    <div class="container">
+      <h3>Credits</h3>
+      <ul>
+        <li class="credits">
+          Lisa Barton - Front end design and display. Eastereggs integration.
+          User authorization integration.
+        </li>
+        <li class="credits">
+          Jared Sutch - Front end design and display. Bootswatch integration.
+        </li>
+        <li class="credits">
+          Kevin Weasley - Backend routing and back to front end connections.
+        </li>
+        <li class="credits">
+          Peter Bishop - Backend routing and back to front end connections.
+        </li>
+      </ul>
+    </div>
   </body>
+  <footer><a href="./index.html">BACK</a></footer>
 </html>
